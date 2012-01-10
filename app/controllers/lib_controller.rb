@@ -1,0 +1,2 @@
+class LibController < ApplicationController
+end
