@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nazv: MyString
+  razdel: MyString
+  avtor: MyString
+  comment: MyString
+
+two:
+  nazv: MyString
+  razdel: MyString
+  avtor: MyString
+  comment: MyString

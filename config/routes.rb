@@ -1,4 +1,24 @@
 Rezjume::Application.routes.draw do
+
+  match '/lib/libruary', :to => 'Lib#libruary'
+  match '/lib/showall', :to => 'Lib#showall'
+  match '/lib/add', :to => 'Lib#add'
+  match '/lib/odna', :to => 'Lib#odna'
+
+  match '/post/posts', :to => 'Post#posts'
+
+  match '/sessions/login', :to => 'sessions#login'
+  match '/sessions/logout', :to => 'sessions#logout'
+  match '/sessions/signup', :to => 'sessions#signup'
+
+
+  match '/servis/calc', :to => 'Servis#calc'
+  match '/servis/alph', :to => 'Servis#alph'
+  match '/servis', :to => 'Pages#servis'
+  root :to => 'Pages#home'
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
